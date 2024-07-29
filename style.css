@@ -1,16 +1,176 @@
-
-p{ text-align:  center; backgroud-color: #cccccc;
-
-}
-h1{ text-align: center; background-color: rgb(255, 155, 153);
+*{
+    margin: 0;
+    padding: 0;
 }
 
-em{
-	color: red;
+
+.cabeçalho{
+    background: linear-gradient(rgba(48, 233, 193, 0.667),#19a806ce);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 24px 0;
 }
-strong{
-	color:blueviolet;
+
+
+.cabeçalho-imagem{
+    position: relative;
+    left: 50px;
+   width: 15%;
+
 }
-.itens{
-	font-style: italic;
+
+.cabeçalho-lista-item{
+    position: relative;
+    right: 30px;
+    display: inline-block;
+    font-size: 400%;
+    text-align:right;
+}
+.escola-titulo{
+    font-size: 300%;
+   
+    
+    
+}
+.escola-texto-um{
+    font-size: 200%;
+}
+
+.escola-imagem{
+    width: 20%;
+    padding: 100px 0;
+
+}
+.titulo{
+    font-size: 500%;
+   
+}
+.estudante-div{
+    display: flex;
+    justify-content: space-around;
+}
+.escola{
+    background-image: linear-gradient(  #19a806ce, rgb(48, 233, 193, 0.667));
+    color: white;
+    display: flex;
+    background-image: linear-gradient( white);
+    padding-bottom: 5%;
+}
+
+.tamanhop{
+    position: relative;
+    right: 10%
+
+}
+
+.tamanhom{
+    position: relative;
+    right: 75%
+}
+.tamanhog{
+    position: relative;
+    right: 50%
+
+}
+.tamanhogg{
+    position: relative;
+    right: 25%
+
+}
+.promo1{
+    position: relative;
+    right: 60%
+
+}
+
+.promo2{
+    position: relative;
+    right: 0%
+}
+.promo3{
+    position: relative;
+    left: 60%
+}
+.fosco{
+    position: relative;
+    right: 60%
+}
+
+.brilhante{
+    position: relative;
+    left: 0%
+}
+
+.personalizado{
+    position: relative;
+    left: 60%
+}
+.estudantes{
+    background-image: linear-gradient( rgb(48, 233, 193, 0.667), #19a806ce);
+    color: white;
+}
+
+.estudantes1{
+    background-image: linear-gradient( #19a806ce, rgb(48, 233, 193, 0.667));
+    color: white;
+}
+
+.estudantes2{
+    background-image: linear-gradient(  rgba(26, 194, 186, 0.667),rgb(48, 233, 193, 0.667),#a806a8ce, #a806a8ce, #610061ce);
+    color: white;
+    padding-top: 10%;
+}
+.estudantes-todos{
+
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.estudantes-todos1{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+.estudantes-todos2{
+    display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+}
+
+.rodape{
+    background-color:#610061ce;
+    text-align: center;
+
+}
+.rodape-imagem{
+    width: 10%;
+    position: relative;
+    left: 630px;
+    top: 100%
+    display: inline-block;
+}
+
+.rodape-lista{
+    position: relative;
+    top: 100%;
+    color: black;
+}
+.rodape-lista-item1{
+    position: relative;
+   right: 600px;
+}
+.rodape-lista-item2{
+    position: relative;
+    right: 550px;
+}
+.rodape-lista-item3{
+    position: relative;
+    right: 430px;
+}
+.rodape-lista-item4{
+    position: relative;
+    right: 470px;
+}
+.rodape-lista-item5{
+    position: relative;
+    right: 260px;
 }
